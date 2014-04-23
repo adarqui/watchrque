@@ -1,0 +1,10 @@
+#!/bin/bash
+
+BASE=`basename $0`
+CLASS=$1
+QUEUE=$2
+FILE=$3
+XPATH=$4
+EVENT=$5
+
+echo "`date`: $@" >> /tmp/${CLASS}.${BASE}.log

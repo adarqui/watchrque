@@ -1,0 +1,23 @@
+{
+	"name": "watchrque",
+	"description": "simple script to watch a set of directories and exec a specifical class/queue/command or enqueue it to resque",
+	"main": "./watchrque",
+	"version": "0.0.1",
+	"author": "Andrew Darqui (http://github.com/adarqui)",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/adarqui/watchrque.git"
+	},
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	],
+	"bugs": {
+		"url" : "http://github.com/adarqui/watchrque/issues"
+	},
+	"dependencies": {
+		"coffee-resque": "",
+		"watchr": ""
+	}
+}
